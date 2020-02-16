@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= titulo %></title>
+
+    <!-- botstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Fuentes de google font -->
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/deaf137354.js" crossorigin="anonymous"></script>
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><%= titulo %></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-building"></i> Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contacto"><i class="fas fa-envelope"></i> Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <header class="row">
+            <div class="col-lg-12 text-center">
+                <img src="/img/pews-logo.png" alt="pews logo"/>
+            </div>
+        </header>
+    </div>
+
+    <!--  Seccion 1 -->
+    <div class="container-fluid" id="about">
+        <div class="row bg-dark text-white p-5 text-center">
+            <div class="col-sm-6">
+                <i class="fab fa-youtube fa-10x"></i>
+            </div>
+            <div class="col-sm-6">
+                <h3>YOUTUBE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet fugiat asperiores ipsa quas quidem est cupiditate, dolorem blanditiis autem ipsum. Voluptatum dolorum enim repellendus autem saepe commodi delectus ab!</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center p-2">
+        <p>Pews 2018 &copy</p>
+    </footer>
+
+</body>
+
+</html>
